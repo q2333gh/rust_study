@@ -75,7 +75,10 @@ cargo run # run the project
 # some useful command may be use:
 carge check  # check the code before compile and run.
 ```
-
+#### cargo new without git : 
+```bash
+cargo new guess_game --vcs none
+```
 
 
 
