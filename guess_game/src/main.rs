@@ -22,10 +22,9 @@ fn main() {
                 continue;
             }
         };
-
         println!("You guessed : {}", guess);
-        // match : called the  magic expression
         match guess.cmp(&secret_number) {
+            // match : called the  magic expression
             Ordering::Less => println!("{}", "Too small!".red()),
             Ordering::Greater => println!("{}", "Too big!".red()),
             Ordering::Equal => {
