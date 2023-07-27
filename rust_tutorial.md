@@ -90,6 +90,8 @@ cargo run # run the project
 
 # some useful command may be use:
 carge check  # check the code before compile and run.
+
+cargo install #add new lib name in cargo.toml; downlaod the lib for you.
 ```
 
 #### cargo new but without git :
