@@ -1,18 +1,18 @@
 # Rust tutorial
 
-#### Acknowledgements:
+#### Acknowledgements
 
 This tutorial follows this youtube channel:  
 **Let's Get Rusty**  
-https://www.youtube.com/watch?v=OX9HJsJUDxA&ab_channel=Let%27sGetRusty  
+<https://www.youtube.com/watch?v=OX9HJsJUDxA&ab_channel=Let%27sGetRusty>  
 
 prerequsite:
 This article **assume** you can understand just a little bit of basic knowledge about programming , linux command , vscode editor :)  
 
-## install:
+## install
 
 Goto the-rust-book-website:  
-https://doc.rust-lang.org/stable/book/ch01-01-installation.html  
+<https://doc.rust-lang.org/stable/book/ch01-01-installation.html>  
 
 input this cmd into linux terminal:
 
@@ -36,7 +36,7 @@ code . # open vscode editor with this folder location
 #it`s also ok to make hello.sh to automate this process after you familiar with it.
 ```
 
-### install vscode rust-extensions:
+### install vscode rust-extensions
 
 At 2023-7-20: just install **rust-analyzer** will finish setup process.  
 
@@ -55,7 +55,7 @@ rustc hello.rs  # compile the .rs file to machine code.
 ./hello # run the rust program.
 ```
 
-### Some handful settings for vscode :
+### Some handful settings for vscode
 
 **quickly toggle bewteen text-editor and integreted-terminal:**  
 ctrl+shift+p open command-pannel:  
@@ -94,13 +94,13 @@ carge check  # check the code before compile and run.
 cargo install #add new lib name in cargo.toml; downlaod the lib for you.
 ```
 
-#### cargo new but without git :
+#### cargo new but without git
 
 ```bash
 cargo new guess_game --vcs none
 ```
 
-### stack and heap:
+### stack and heap
 
 ![stack_heap](image.png)  
 notice that "hello" is on the stack  
