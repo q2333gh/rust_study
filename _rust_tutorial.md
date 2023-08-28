@@ -38,7 +38,7 @@ code . # open vscode editor with this folder location
 #it`s also ok to make hello.sh to automate this process after you familiar with it.
 ```
 
-### install vscode rust-extensions
+### Modern IDE : install vscode rust-extensions
 
 At 2023-7-20: just install **rust-analyzer** will finish setup process.  
 
@@ -46,7 +46,9 @@ Continue coding in hello.rs:
 
 ```rust
 fn main(){
-  println!("Let`s get rusty!");
+  println!("Let`s get rusty!"); // ! means a macro. just the same sematics in C
+  // marco expansion:
+  // std::io::_print(std::format_args_nl!("Let`s get rusty!"));
 }
 ```
 
