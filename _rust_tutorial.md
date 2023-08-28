@@ -9,7 +9,7 @@ This tutorial follows this youtube channel:
 prerequsite:
 This article **assume** you can understand just a little bit of basic knowledge about programming , linux command , vscode editor :)  
 
-## install
+## install Software Development Kit
 
 Goto the-rust-book-website:  
 <https://doc.rust-lang.org/stable/book/ch01-01-installation.html>  
@@ -22,6 +22,8 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
 It is intereactive installing step.  
 normal install input 1 into terminal and press enter to install rust-SDKs  
+Include rust compiler , debugger, documentation, rust-STL and dependencies management tool.
+And cargo, a tool for build larger rust project.  
 
 ## hello_world
 
