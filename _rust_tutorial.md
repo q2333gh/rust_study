@@ -38,7 +38,7 @@ code . # open vscode editor with this folder location
 #it`s also ok to make hello.sh to automate this process after you familiar with it.
 ```
 
-### Modern IDE : install vscode rust-extensions
+## Modern IDE : install vscode rust-extensions
 
 At 2023-7-20: just install **rust-analyzer** will finish setup process.  
 
@@ -69,7 +69,7 @@ watch out ,not this: (default)keyboard shortcuts json
 (instead of right-arrow, too far from hand ,hah)  
 install vscode-extension: TabOut  
 
-## Library Auto Management and Auto Build Project Tool for Rust: Cargo
+## Library  Management and  Build Project Tool for Rust: Cargo
 
 ```bash
 cargo --version # Check if cargo is installed.
